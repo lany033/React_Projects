@@ -1,4 +1,4 @@
-export class contact {
+export class Contact {
     nombre =  '';
     apellido = '';
     email = '';
