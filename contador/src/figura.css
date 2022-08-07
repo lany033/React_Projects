@@ -1,0 +1,6 @@
+.figura {
+    width: 255px;
+    height: 255px;
+    border: 1px;
+    border-style: double;
+}
