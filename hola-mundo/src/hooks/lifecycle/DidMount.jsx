@@ -21,7 +21,7 @@ export class DidMount extends Component {
 export const DidMountHook = () => {
 
     useEffect(() => {
-        console.log('Comportamiento antes de que el componente sea alñadido al DOM(renderice)')
+        console.log('Comportamiento antes de que el componente sea añadido al DOM(renderice)')
         
     }, []);
 
