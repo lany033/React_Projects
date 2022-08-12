@@ -9,6 +9,11 @@ import Father from './components/container/father';
 import OptionalRender from './components/pure/optionalRender';
 import LoginFormik from './components/pure/forms/loginFormik';
 import RegisterFormik from './components/pure/forms/registerFormik';
+import AsyncExample from './components/pure/AsyncExample';
+import ObservableExamle from './components/pure/ObservableExamle';
+import FetchServices from './services/FetchServices';
+import AxiosExample from './components/pure/AxiosExample';
+import AxiosCRUDExample from './components/pure/AxiosCRUDExample';
 
 function App() {
   return (
@@ -23,9 +28,15 @@ function App() {
         {/* <Father></Father> */}
         {/* Ejemplos de uso de formik */}
         {/* <LoginFormik></LoginFormik> */}
-        <RegisterFormik></RegisterFormik>
+        {/* <RegisterFormik></RegisterFormik> */}
         {/* Ejemplos de renderizado condicional */}
         {/* <OptionalRender></OptionalRender> */}
+        {/* Ejemplos de asincronia */}
+        {/* <AsyncExample></AsyncExample> */}
+        {/* <ObservableExamle></ObservableExamle> */}
+        {/* <FetchServices></FetchServices> */}
+        {/* <AxiosExample></AxiosExample> */}
+        <AxiosCRUDExample></AxiosCRUDExample>
       {/* </header> */}
     </div>
   );
